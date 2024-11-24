@@ -1,0 +1,203 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item \small{
+    {#1}
+  }\vspace{-4pt} % Adjust this to match the spacing of other sections
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newenvironment{tightItemize}{%
+  \begin{itemize}[leftmargin=0.15in]
+  \setlength{\itemsep}{0pt}%
+  \setlength{\parskip}{0pt}%
+}{%
+  \end{itemize}
+}
+
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Alissa Baza} \\ \vspace{1pt}
+    \small (559)869-7791 $|$ \href{mailto:alissabaza@gmail.com}{\underline{alissabaza@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/alissa-baza}{\underline{linkedin.com/in/alissa-baza}} \\
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California, Los Angeles (UCLA)}{Los Angeles, CA}
+      {Bachelor of Arts in Psychology, Minor in Education}{Sept. 2022 -- June 2024}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Behavior Intervention Aid}{Aug. 2024 -- Present}
+      {Kennedy Elementary School}{Dinuba, CA}
+      \resumeItemListStart
+        \resumeItem{Organize group meetings to foster a sense of community among mentees while setting expectations for communication and support.}
+        \resumeItem{Applied behavior modification techniques based on Applied Behavior Analysis (ABA) principles to improve students’ social interaction skills.}
+        \resumeItem{Responded appropriately to disruptive, abusive, and dangerous behavior by following established procedures.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {MEChA Calmecac Academic Peer Counselor}{Oct. 2023 -- June 2024}
+      {University of California, Los Angeles}{Los Angeles, CA}
+      \resumeItemListStart
+        \resumeItem{Provided weekly one-on-one counseling to students, aiding academic progress, planning, and holistic wellbeing.}
+        \resumeItem{Managed counseling services, evaluated service effectiveness, and tracked counseling services using Excel.}
+        \resumeItem{Conducted outreach including phone banking, email communication, and tabling to promote MEChA Calmecac.}
+        \resumeItem{Assisted in facilitating academic and holistic workshops each quarter, enhancing student engagement and learning.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Summer Recreation and Enrichment Aid}{June--July 2022, June--July 2023}
+      {Cutler Elementary School}{Cutler, CA}
+      \resumeItemListStart
+        \resumeItem{Delivered instruction in subjects like math, science, reading, and grammar.}
+        \resumeItem{Assisted in classroom and playground setup, ensuring a safe and healthy environment.}
+        \resumeItem{Maintained discipline and fostered a positive atmosphere through leadership and responsibility.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {A.V.I.D. Tutor}{Jan. 2021 -- June 2022}
+      {Orosi High School}{Orosi, CA}
+      \resumeItemListStart
+        \resumeItem{Recommended and recruited other AVID team members and coordinated AVID fundraising activity.}
+        \resumeItem{Tutored students across various subjects, reinforcing class lessons and improving their skills and test preparation.}
+        \resumeItem{Collaborated with teachers to assess and address the educational needs of students based on observed performance.}
+        \resumeItem{Corrected assignments, including class and homework tasks in writing, spelling, punctuation, and arithmetic.}
+        \resumeItem{Operated various classroom and office equipment, including computers and audio-visual tools.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------RESEARCH-----------
+\section{Research}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Latinx Mental Health and Retention in Higher Education}{Sept. 2023 -- Dec. 2023}
+      {University of California, Los Angeles}{Los Angeles, CA}
+      \resumeItemListStart
+        \resumeItem{Analyzed interviews from MEChA Calmecac to assess support structures for underserved students.}
+        \resumeItem{Identified barriers, such as limited resources and cultural dissonance, affecting students’ academic success and well-being.}
+        \resumeItem{Proposed recommendations to improve culturally relevant mental health resources and peer counseling programs for Latinx students.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------VOLUNTEER-----------
+\section{Volunteer}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Transfer Mentor}{Sept. 2023 -- June 2024}
+      {University of California, Los Angeles}{Los Angeles, CA}
+      \resumeItemListStart
+        \resumeItem{Maintained regular contact with mentees via emails, calls, and texts to assess and address their concerns.}
+        \resumeItem{Established ground rules for interactions, ensuring respect for personal schedules and communication methods.}
+        \resumeItem{Organized meetings to create a community among mentees while providing communication and support.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Skills}
+\begin{tightItemize}
+    \item Behavioral Management
+    \item Counseling and Mentoring
+    \item Program Coordination and Workshop Facilitation
+    \item Research and Data Analysis
+\end{tightItemize}
+
+
+
+%-------------------------------------------
+\end{document}
